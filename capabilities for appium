@@ -1,0 +1,16 @@
+capabilities for appium 
+  {
+    "platformName": "iOS",
+        "platformVersion": "12.1",
+            "deviceName": "iPhone 7",
+                "app": "/Users/a3logics/Library/Developer/Xcode/DerivedData/VendorCrush-erlncoibubzofbbsjxrvgmajzisi/Build/Products/Debug-iphonesimulator/VendorCrush.app"
+}
+
+
+
+error - 
+An unknown server-side error occurred while processing the command. Original error: simctl error running 'list': xcrun: error: active developer path ("/Applications/Xcode 9.4.app/Contents/Developer") does not exist Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools. See `man xcode-select` for more details.
+sol- need to change the new xcode version in the preference of xcode application
+
+error- 
+An unknown server-side error occurred while processing the command. Original error: Could not create simulator with name 'appiumTest-70B1BE10-E555-4388-9918-F614FDA56E21-iPhone 7', device type id 'iPhone 7' and runtime id '11.4'. Reason: 'simctl error running 'create': Invalid runtime: 11.4'

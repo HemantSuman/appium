@@ -1,0 +1,7 @@
+# swipe personal information
+
+	TouchAction(driver)   .press(x=262, y=599)   .move_to(x=257, y=220)   .release()   .perform()
+    TouchAction(driver)   .press(x=214, y=583)   .move_to(x=224, y=418)   .release()   .perform()
+    TouchAction(driver)   .press(x=180, y=426)   .move_to(x=181, y=306)   .release()   .perform()
+    TouchAction(driver)   .press(x=267, y=466)   .move_to(x=269, y=249)   .release()   .perform()
+    
